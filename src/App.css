@@ -1,0 +1,175 @@
+body {
+
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #212121;
+  color: white;
+
+}
+
+html {
+  font-size: 62.5%;
+
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 900;
+
+
+
+}
+
+h2 {
+  font-size: 3.5rem;
+
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+
+}
+
+h4 {
+  font-size: 2rem;
+
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: center;
+  margin: 12rem;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+img {
+  height: 25rem;
+  /* width:  55rem; */
+  border: 1rem solid white;
+}
+
+
+
+#i {
+  font-size: 3rem;
+  color: white;
+  margin: 1.5rem;
+}
+
+
+
+#i:hover {
+  color: blue;
+}
+
+
+button {
+  transition: all 0.5s;
+  font-size: 17px;
+  padding: 1ch 2ch;
+  background-color: white;
+  color: #000;
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 2px 2px 0px hsl(0, 0%, 90%),
+    4px 4px 0px hsl(0, 0%, 80%),
+    6px 6px 0px hsl(0, 0%, 70%),
+    8px 8px 0px hsl(0, 0%, 60%),
+    10px 10px 0px hsl(0, 0%, 50%),
+    12px 12px 0px hsl(0, 0%, 40%),
+    14px 14px 0px hsl(0, 0%, 30%),
+    16px 16px 0px hsl(0, 0%, 20%),
+    18px 18px 0px hsl(0, 0%, 10%);
+}
+
+button:hover {
+  background-color: hsl(0, 0%, 50%);
+  color: #fff;
+  box-shadow: none;
+}
+
+
+
+
+
+@media (max-width : 320px) {
+  html {
+    font-size: 35%;
+  }
+
+}
+
+
+
+@media (min-width : 320px) and (max-width : 480px) {
+  html {
+    font-size: 43.75%;
+  }
+
+}
+
+@media (min-width : 481px) and (max-width : 768px) {
+  html {
+    font-size: 53.125%;
+  }
+
+}
+
+@media (min-width : 769px) and (max-width : 1023px) {
+  html {
+    font-size: 62.5%;
+  }
+
+}
+
+
+@media (min-width : 1024px) and (max-width : 1200px) {
+  html {
+    font-size: 71.85%;
+  }
+
+}
+
+
+@media (min-width : 1201px) {
+  html {
+    font-size: 77%;
+  }
+
+}
