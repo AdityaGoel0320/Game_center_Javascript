@@ -6,9 +6,9 @@ const Intro = () => {
             <h3 className='h3'>Welcome to </h3>
             <div className='flex items-center justify-center'>
                 <h1  className=' h1 flex items-center justify-center'>
-                    GameCenter.com
+                    <span style = {{"color" : "red"}} >GameCenter.com</span>
                 </h1>
-                <img className=' img flex items-center justify-center' src="./images/logo.png" alt="" />
+                <img className = "img" src="./images/logo.png" alt="" />
             </div>
 
             <p className='p'>It is the best place to play games with your freinds</p>
