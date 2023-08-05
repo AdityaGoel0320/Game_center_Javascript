@@ -3,8 +3,6 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-color: #212121;
-  color: white;
 
 }
 
@@ -13,26 +11,26 @@ html {
 
 }
 
-h1 {
+.h1 {
   font-size: 5rem;
   font-weight: 900;
-border: 2px solid red;
+  border: 2px solid red;
 
 
 }
 
-h2 {
+.h2 {
   font-size: 3.5rem;
 
 }
 
-h3 {
+.h3 {
   font-size: 2.5rem;
   font-weight: 700;
 
 }
 
-h4 {
+.h4 {
   font-size: 2rem;
 
 }
@@ -83,7 +81,7 @@ img {
   border: 1rem solid white;
 }
 
-.about_box{
+.about_box {
   /* <div className=' about_box m-12 flex items-center justify-center flex-col gap-12'> */
   display: flex;
   align-items: center;
@@ -105,35 +103,6 @@ img {
 #i:hover {
   color: blue;
 }
-
-
-button {
-  transition: all 0.5s;
-  font-size: 17px;
-  padding: 1ch 2ch;
-  background-color: white;
-  color: #000;
-  font-family: Roboto, sans-serif;
-  border: none;
-  border-radius: 2px;
-  box-shadow: 2px 2px 0px hsl(0, 0%, 90%),
-    4px 4px 0px hsl(0, 0%, 80%),
-    6px 6px 0px hsl(0, 0%, 70%),
-    8px 8px 0px hsl(0, 0%, 60%),
-    10px 10px 0px hsl(0, 0%, 50%),
-    12px 12px 0px hsl(0, 0%, 40%),
-    14px 14px 0px hsl(0, 0%, 30%),
-    16px 16px 0px hsl(0, 0%, 20%),
-    18px 18px 0px hsl(0, 0%, 10%);
-}
-
-button:hover {
-  background-color: hsl(0, 0%, 50%);
-  color: #fff;
-  box-shadow: none;
-}
-
-
 
 
 
