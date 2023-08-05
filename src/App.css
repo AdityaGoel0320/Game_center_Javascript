@@ -1,3 +1,10 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+
 body {
 
   margin: 0;
@@ -14,7 +21,7 @@ html {
 }
 
 h1 {
-  font-size: 50rem;
+  font-size: 5rem;
   font-weight: 900;
 
 
