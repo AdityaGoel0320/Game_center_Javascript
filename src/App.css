@@ -83,7 +83,16 @@ img {
   border: 1rem solid white;
 }
 
-
+.about_box{
+  /* <div className=' about_box m-12 flex items-center justify-center flex-col gap-12'> */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 7rem;
+  margin: 5rem;
+  border: 10px solid red;
+}
 
 #i {
   font-size: 3rem;

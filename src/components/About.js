@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className='m-12 flex items-center justify-center flex-col gap-12'>
+    <div className=' about_box'>
       <header className='flex items-center justify-center flex-col gap-3 m-12 mb-24'>
         <h1>About This Website</h1>
         <h2>Hi there! I'm Aditya Goel, my GameCenter project.</h2>
