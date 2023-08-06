@@ -3,9 +3,8 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-color: #212121;
   color: white;
-
+  background-color: black;
 }
 
 html {
@@ -16,8 +15,6 @@ html {
 h1 {
   font-size: 5rem;
   font-weight: 900;
-
-
 
 }
 
@@ -37,63 +34,6 @@ h4 {
 
 }
 
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 7rem;
-}
-
-.box {
-  display: flex;
-  align-items: center;
-  padding: 1rem;
-  justify-content: center;
-  margin: 12rem;
-  gap: 5rem;
-  flex-wrap: wrap;
-}
-
-.left {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 3rem;
-
-}
-
-.right {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.btn-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
-}
-
-img {
-  height: 25rem;
-  /* width:  55rem; */
-  border: 1rem solid white;
-}
-
-.about_box{
-  /* <div className=' about_box m-12 flex items-center justify-center flex-col gap-12'> */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 7rem;
-  margin: 5rem;
-  border: 10px solid red;
-}
-
 #i {
   font-size: 3rem;
   color: white;
@@ -106,6 +46,88 @@ img {
   color: blue;
 }
 
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.logo {
+  height: 30rem;
+}
+
+
+
+
+img {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px,
+    inset rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    inset rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: all ease-in-out 0.3s;
+  overflow: hidden;
+}
+
+img:hover {
+  box-shadow: rgba(193, 44, 223, 0.19) 0px 10px 20px,
+    rgba(193, 44, 223, 0.23) 0px 6px 6px,
+    inset rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    inset rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border: 5px solid #b671d6;
+}
+
+@keyframes textanimate {
+  0% {
+    right: 20px;
+  }
+
+  100% {
+    right: 10px;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20rem;
+}
+
+
+
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin: 10rem;
+}
+
+
+.game_img{
+  height: 35rem;
+}
+
+
+.left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+
+.btn-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
 
 button {
   transition: all 0.5s;

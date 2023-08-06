@@ -6,6 +6,8 @@ import Item from './components/Item';
 function App() {
   return (
     <>
+
+    
     <Intro/>
     {/* <About/> */}
     <Item/>

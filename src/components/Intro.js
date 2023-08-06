@@ -2,16 +2,13 @@ import React from 'react'
 
 const Intro = () => {
     return (
-        <div className='flex items-center justify-center flex-col gap-5'>
-            <h3>Welcome to </h3>
-            <div className='flex items-center justify-center'>
-                <h1 className='flex items-center justify-center'>
-                    GameCenter.com
+        <div className='intro'>
+                <h1 className=''>
+                Welcome to GameCenter.com
                 </h1>
-                <img className='flex items-center justify-center' src="./images/logo.png" alt="" />
-            </div>
+                <img className='logo' src="./images/logo.jpg" alt="" />
 
-            <p>It is the best place to play games with your freinds</p>
+            <h2>It is the best place to play games with your freinds</h2>
         </div>
 
 

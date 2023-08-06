@@ -8,31 +8,14 @@ const Game = (props) => {
             <div className='box'>
 
                 <div className="right">
-                    <a href={link} target='_blank'>
-
-                        <img className='img' src={img} alt="" />
-
-                    </a>
+                    <a href={link} target='_blank'><img className='game_img' src={img} alt="" /></a>
                 </div>
                 <div className="left">
-
-                    <h3>{name}</h3>
-
-
+                    <h2>{name}</h2>
                     <div className='btn-box'>
-
-                        <button>
-                            <a href={link} target='_blank'>Live</a>
-
-                        </button>
-
-                        <button>
-                            <a href={repo} target='_blank'>Code</a>
-
-
-                        </button>
+                        <button><a href={link} target='_blank'>Live</a></button>
+                        <button><a href={repo} target='_blank'>Code</a></button>
                     </div>
-
 
                 </div>
             </div>

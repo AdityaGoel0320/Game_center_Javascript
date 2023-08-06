@@ -5,7 +5,7 @@ import Game from './Game'
 const Item = () => {
     return (
         <>
-<div className= "container flex items-center justify-center m-12 flex-col">
+<div className= "container">
 
             {
 
