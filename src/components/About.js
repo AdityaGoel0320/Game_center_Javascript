@@ -26,14 +26,14 @@ const About = () => {
       </footer>
 
       <div className='flex items-center justify-center gap-5 m-5'>
-        <a href="https://github.com/AdityaGoel0320" target="_blank" className='color-black'>
+        <a href="https://github.com/AdityaGoel0320" target="_blank" className='color-black' rel="noopener noreferrer">
           <i id='i' className="fa-brands fa-github"></i>
         </a>
 
-        <a href="https://www.linkedin.com/in/aditya-goel-286245239" target="_blank" className='color-black'>
+        <a href="https://www.linkedin.com/in/aditya-goel-286245239" target="_blank" className='color-black' rel="noopener noreferrer">
           <i id="i" className="fa-brands fa-linkedin-in"></i>
         </a>
-        <a href="https://twitter.com/AdityaGoel0320?t=DWSov778bgHXMkyQxELrow&s=09" target="_blank" className='color-black'>
+        <a href="https://twitter.com/AdityaGoel0320?t=DWSov778bgHXMkyQxELrow&s=09" target="_blank" className='color-black' rel="noopener noreferrer">
           <i id='i' className="fa-brands fa-x-twitter"></i>
         </a>
       </div>
