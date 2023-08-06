@@ -10,12 +10,12 @@ function App() {
 
     if (x.classList.contains("class")) {
       x.classList.remove("class");
-      text.innerText = "Click to See close about seaction"
+      text.innerText = "Click to Close About Section"
 
     }
     else {
       x.classList.add("class");
-      text.innerText = "Click to See About this Project"
+      text.innerText = "Click to See About Section"
 
     }
   }
@@ -25,7 +25,7 @@ function App() {
 
       <Intro />
       <Item />
-      <button id='btn' className='div' onClick={fnc}>Click to See About this Project</button>
+      <button id='btn' className='div' onClick={fnc}>Click to See About Section</button>
       <div id='id' className="class">
         <About />
       </div>
