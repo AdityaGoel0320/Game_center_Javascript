@@ -9,7 +9,7 @@ const About = () => {
         </header>
         <main className='main'>
             <section className=''>
-                <h2 className='sub_heading'>About the Project</h2>
+                {/* <h2 className='sub_heading'>About the Project</h2> */}
                 <h3>Welcome to my React.js project! This application showcases my skills in React.js development, bringing
                     you a dynamic and interactive user experience.</h3>
                 <h3>In this project, I've utilized various powerful React.js hooks such as useState, useEffect, useContext,
