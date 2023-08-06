@@ -9,8 +9,8 @@ function App() {
 
     
     <Intro/>
-    {/* <About/> */}
     <Item/>
+    <About/>
     </>
   );
 }

@@ -52,6 +52,7 @@ h4 {
   justify-content: center;
   flex-direction: column;
   gap: 2.5rem;
+  text-align: center;
 }
 
 .logo {
@@ -93,7 +94,7 @@ img:hover {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 20rem;
+  margin: 10rem;
 }
 
 
@@ -109,7 +110,8 @@ img:hover {
 
 
 .game_img{
-  height: 35rem;
+  height: 30rem;
+  width: 50rem;
 }
 
 
